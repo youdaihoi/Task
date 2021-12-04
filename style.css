@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a {
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+.explanation {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+  margin-right: 30px;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.step {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+}
+
+.picture1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  margin: 10px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.picture2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  margin: 10px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.picture3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  margin: 10px;
+  background-position: bottom;
+  background-size: cover;
+}
+.title {
+  padding: 5px 10px;
+}
+
+.text{
+  padding:0 10px 5px;
+}
+
+.b {
+  background-color: #aaaaaa;
+  width: 100%;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .a {
+    width: 100%;
+  }
+
+  .explanation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto 20px;
+  }
+
+
+
+  .box:last-child {
+    margin: auto;
+  }
+}
